@@ -45,4 +45,17 @@ export const rules: Required<ModuleOptions>['rules'] = [
       }
     }
   },
+  // {
+  //   test: /\.s[ac]ss$/i,
+  //   use: [
+  //     'style-loader',
+  //     'css-loader',
+  //     {
+  //       loader: 'sass-loader',
+  //       options: {
+  //         additionalData: `@use "./src/styles/variable.scss" as *;`,
+  //       }
+  //     }
+  //   ]
+  // }
 ];
